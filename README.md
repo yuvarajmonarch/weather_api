@@ -1,3 +1,9 @@
+# OUTPUT
+
+![Screenshot (322)](https://github.com/user-attachments/assets/1ac94390-d709-4169-b027-9f367c5ef02d)
+![Screenshot (323)](https://github.com/user-attachments/assets/38cc2e09-299e-406a-b906-2dc1b4c47f59)
+![Screenshot (324)](https://github.com/user-attachments/assets/408c7995-7daf-48c7-b341-3daa0eebc1ca)
+
 # 🌤️ Weather App
 
 This is a responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**, powered by the **WeatherAPI**.
