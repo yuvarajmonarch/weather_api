@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Weather App</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>🌍 Live Weather Dashboard</h1>
+    </header>
+
+    <section class="search-box">
+      <input type="text" id="cityInput" placeholder="Search city..." />
+      <button onclick="getWeather()">Search</button>
+    </section>
+
+    <div class="loader" id="loader">
+      <img src="assets/icons/loader.gif" alt="Loading...">
+    </div>
+
+    <section id="errorBox" class="error-box"></section>
+
+    <main id="weatherContainer" class="weather-container hidden">
+      <div class="weather-card">
+        <h2 id="location"></h2>
+        <img id="icon" src="" alt="Weather Icon" />
+        <p id="condition"></p>
+        <div class="temp-block">
+          <h3><span id="temp"></span>°C</h3>
+        </div>
+        <div class="details">
+          <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+          <p><strong>Wind Speed:</strong> <span id="wind"></span> kph</p>
+          <p><strong>AQI (PM2.5):</strong> <span id="aqi" title=""></span></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Powered by WeatherAPI • Built by Yuvaraj 💻</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

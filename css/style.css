@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 450px;
+  width: 100%;
+  background: #ffffffdd;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #2980b9;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+}
+
+.error-box {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.weather-container.hidden {
+  display: none;
+}
+
+.weather-card {
+  text-align: center;
+}
+
+.weather-card img {
+  width: 80px;
+  margin: 10px auto;
+}
+
+.temp-block {
+  margin: 10px 0;
+}
+
+.details p {
+  margin: 6px 0;
+}
+
+#aqi.good { color: green; }
+#aqi.moderate { color: orange; }
+#aqi.unhealthy { color: red; }
+#aqi.hazardous { color: purple; }
